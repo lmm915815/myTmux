@@ -9,8 +9,12 @@ fi
 
 which apt 2>&1 > /dev/null
 if test $? ;then
-    apt inatall -y git tmux 
+    echo
+    #apt inatall -y git tmux 
 fi 
+
+
+git clone https://github.com/lmm915815/myTmux.git
 
 echo '''setw -g mouse-resize-pane on
 setw -g mouse-select-pane on
