@@ -16,9 +16,8 @@ fi
 
 git clone https://github.com/lmm915815/myTmux.git
 
-echo '''setw -g mouse-resize-pane on
-setw -g mouse-select-pane on
-setw -g mouse-select-window on
-setw -g mode-mouse on''' >> ~/.tmux.conf 
+
+CP=`which cp --skip-alias`
+$CP -f --backup myTmux/tmux.conf ~/.tmux.conf 
 
 
