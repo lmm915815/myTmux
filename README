@@ -1,7 +1,7 @@
 
 
 
-wget -qO-  https://github.com/lmm915815/myTmux/blob/master/installTmux.sh|sh -x
+wget -qO-  https://raw.githubusercontent.com/lmm915815/myTmux/master/installTmux.sh |sh -x
 
 
 
