@@ -1,13 +1,13 @@
 #!/bin/bash
 
 
-which yum 2>&1 > /dev/null  
+which yum  > /dev/null 2>&1  
 if test $?;then
 
     yum install -y git tmux 
 fi
 
-which apt 2>&1 > /dev/null
+which apt > /dev/null 2>&1
 if test $? -eq 0 ;then
     echo
     apt inatall -y git tmux 
