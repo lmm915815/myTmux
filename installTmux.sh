@@ -8,9 +8,9 @@ if test $?;then
 fi
 
 which apt 2>&1 > /dev/null
-if test $? ;then
+if test $? -eq 0 ;then
     echo
-    #apt inatall -y git tmux 
+    apt inatall -y git tmux 
 fi 
 
 
